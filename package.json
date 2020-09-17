@@ -6,7 +6,8 @@
   "scripts": {
     "build": "babel src -d lib",
     "release": "babel src -d lib && npm version patch && cpx package.json lib/ && cd lib && npm publish",
-    "copy": "cpx package.json lib/"    
+    "copy": "cpx package.json lib/",
+    "start": "npm run build && node lib/index"
   },
   "keywords": [],
   "author": "lindsay.aiellodev@gmail.com",
@@ -16,5 +17,6 @@
     "@babel/core": "^7.11.6",
     "@babel/preset-env": "^7.11.5",
     "cpx": "^1.5.0"
-  } 
+  },
+  "dependencies": {}
 }
