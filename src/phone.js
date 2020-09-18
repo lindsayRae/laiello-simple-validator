@@ -1,12 +1,9 @@
 
-
-
-
 /**
  * RegEx Resource: https://www.regexpal.com/17
  * @method isPhoneNumber
  * @description Given a string, returns true if string is a phone numebr
- * @param {String} string 
+ * @param {String} string - Phone number user entered 
  * @returns {Boolean} boolean
  */
 
