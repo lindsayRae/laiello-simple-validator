@@ -7,6 +7,5 @@ export {
 }
 
 console.log(isEmail('lindsay@test.com'))
-
 console.log(isPhoneNumber('303-555-5555'))
 
