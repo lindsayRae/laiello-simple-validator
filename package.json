@@ -9,7 +9,7 @@
     "copy": "cpx package.json lib/",
     "start": "npm run build && node lib/index",
     "doc": "jsdoc src -d docs",
-    "test": "npm run start && jest"
+    "test": "npm run build && cd lib && jest"
   },
   "keywords": [],
   "author": "lindsay.aiellodev@gmail.com",
