@@ -5,7 +5,7 @@ const EMAIL_REGEX = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"
 
 /**
  * @method isEmail 
- * @description Given a string, returns true if string is an email using a regular expresstion
+ * @description Given a string, returns true if string is in email format using RegExp
  * @param {String} string - Email user entered 
  * @returns {Boolean} boolean 
  * 
