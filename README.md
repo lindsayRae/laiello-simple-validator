@@ -10,7 +10,7 @@ npm i laiello-simple-validator
 import { isEmail, isPhoneNumber } from 'laiello-simple-validator'
 
 // Usage 
-const emailResult = isEmail('test@email.com') // returns true or flase
+const emailResult = isEmail('test@email.com') // returns true or false
 const phoneResult = isPhoneNumber('test@email.com') // return true or false
 ```
 ## Functions
