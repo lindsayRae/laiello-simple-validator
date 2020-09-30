@@ -9,7 +9,8 @@
     "start": "npm run build && node lib/index",
     "doc": "jsdoc src -d docs",
     "test": "npm run build && cd lib && jest",
-    "lint": "eslint --config ./.eslintrc.js --ignore-path ./.eslintignore ./src/**/*"
+    "lint": "eslint --config ./.eslintrc.js --ignore-path ./.eslintignore ./src/**/*",
+    "lint:fix": "eslint --config ./.eslintrc.js --ignore-path ./.eslintignore ./src/**/* --fix"
   },
   "keywords": [],
   "author": "lindsay.aiellodev@gmail.com",
