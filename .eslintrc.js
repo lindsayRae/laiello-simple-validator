@@ -10,4 +10,9 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module',
   },
+  rules: {
+    'linebreak-style': 'off',
+    'no-useless-escape': 'off',
+    'import/named': 'off',
+  },
 };

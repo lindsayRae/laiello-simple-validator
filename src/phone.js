@@ -11,10 +11,13 @@ const PHONE_REGEX = /^\(?([0-9]{3})\)?[-.●,/\s/]?([0-9]{3})[-.●,/\s/]?([0-9]
  * @returns {Boolean} boolean
  */
 
-export const isPhoneNumber = (string) => {
+// eslint-disable-next-line no-use-before-define
+const isPhoneNumber = (string) => {
   try {
     return PHONE_REGEX.test(string);
   } catch (error) {
     return false;
   }
 };
+
+export default { isPhoneNumber };
