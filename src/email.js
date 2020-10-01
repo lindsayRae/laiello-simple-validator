@@ -7,12 +7,10 @@ const EMAIL_REGEX = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"
  *
  */
 
-const isEmail = (string) => {
+export const isEmail = (string) => {
   try {
     return EMAIL_REGEX.test(string.toLowerCase());
   } catch (error) {
     return false;
   }
 };
-
-export default { isEmail };
